@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED046582207FE25F00E72307 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED046581207FE25F00E72307 /* CustomTableViewCell.swift */; };
+		ED04658420801F8300E72307 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04658320801F8300E72307 /* Components.swift */; };
 		ED4E2D0C207FC291008E4BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4E2D0B207FC291008E4BE2 /* AppDelegate.swift */; };
 		ED4E2D0E207FC291008E4BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4E2D0D207FC291008E4BE2 /* ViewController.swift */; };
 		ED4E2D11207FC291008E4BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4E2D0F207FC291008E4BE2 /* Main.storyboard */; };
 		ED4E2D14207FC291008E4BE2 /* AwesomeUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED4E2D12207FC291008E4BE2 /* AwesomeUI.xcdatamodeld */; };
 		ED4E2D16207FC291008E4BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4E2D15207FC291008E4BE2 /* Assets.xcassets */; };
 		ED4E2D19207FC291008E4BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4E2D17207FC291008E4BE2 /* LaunchScreen.storyboard */; };
+		ED4E2D21207FC3E2008E4BE2 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4E2D20207FC3E1008E4BE2 /* UIColorExtensions.swift */; };
+		ED64FC1320827B650023C7C5 /* museosansrounded-500-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED64FC1120827A140023C7C5 /* museosansrounded-500-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED046581207FE25F00E72307 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		ED04658320801F8300E72307 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		ED4E2D08207FC291008E4BE2 /* AwesomeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4E2D0B207FC291008E4BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED4E2D0D207FC291008E4BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		ED4E2D15207FC291008E4BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED4E2D18207FC291008E4BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED4E2D1A207FC291008E4BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4E2D20207FC3E1008E4BE2 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		ED64FC1120827A140023C7C5 /* museosansrounded-500-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "museosansrounded-500-webfont.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,25 @@
 			children = (
 				ED4E2D0B207FC291008E4BE2 /* AppDelegate.swift */,
 				ED4E2D0D207FC291008E4BE2 /* ViewController.swift */,
+				ED04658320801F8300E72307 /* Components.swift */,
+				ED046581207FE25F00E72307 /* CustomTableViewCell.swift */,
 				ED4E2D0F207FC291008E4BE2 /* Main.storyboard */,
 				ED4E2D15207FC291008E4BE2 /* Assets.xcassets */,
+				ED4E2D20207FC3E1008E4BE2 /* UIColorExtensions.swift */,
+				ED64FC1220827B2F0023C7C5 /* Fonts */,
 				ED4E2D17207FC291008E4BE2 /* LaunchScreen.storyboard */,
-				ED4E2D1A207FC291008E4BE2 /* Info.plist */,
 				ED4E2D12207FC291008E4BE2 /* AwesomeUI.xcdatamodeld */,
+				ED4E2D1A207FC291008E4BE2 /* Info.plist */,
 			);
 			path = AwesomeUI;
+			sourceTree = "<group>";
+		};
+		ED64FC1220827B2F0023C7C5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ED64FC1120827A140023C7C5 /* museosansrounded-500-webfont.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +148,7 @@
 			files = (
 				ED4E2D19207FC291008E4BE2 /* LaunchScreen.storyboard in Resources */,
 				ED4E2D16207FC291008E4BE2 /* Assets.xcassets in Resources */,
+				ED64FC1320827B650023C7C5 /* museosansrounded-500-webfont.ttf in Resources */,
 				ED4E2D11207FC291008E4BE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED4E2D0E207FC291008E4BE2 /* ViewController.swift in Sources */,
+				ED04658420801F8300E72307 /* Components.swift in Sources */,
+				ED046582207FE25F00E72307 /* CustomTableViewCell.swift in Sources */,
 				ED4E2D14207FC291008E4BE2 /* AwesomeUI.xcdatamodeld in Sources */,
 				ED4E2D0C207FC291008E4BE2 /* AppDelegate.swift in Sources */,
+				ED4E2D21207FC3E2008E4BE2 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
